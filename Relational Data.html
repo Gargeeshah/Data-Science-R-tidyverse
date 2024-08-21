@@ -9,7 +9,7 @@
 <meta name="author" content="Gargee Shah">
 <meta name="dcterms.date" content="2024-03-01">
 
-<title>Challenge_3: Joining Relational Data, Writing Your Own Functions, and String Operations</title>
+<title>Joining Relational Data, Writing Your Own Functions, and String Operations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4298,11 +4298,8 @@ window.onload = function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Challenge_3: Joining Relational Data, Writing Your Own Functions, and String Operations</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">weekly_challenges</div>
-    <div class="quarto-category">challenge_3</div>
-  </div>
+<h1 class="title"> Joining Relational Data, Writing Your Own Functions, and String Operations</h1>
+  <!--  -->
   </div>
 
 
@@ -4329,7 +4326,6 @@ window.onload = function() {
 
 </header>
 
-<p><strong>Make sure you change the author’s name in the above YAML header.</strong> <strong>Name the html file as Lastname_Firstname_Challenge3.html</strong></p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
 <p>If you have not installed the following packages, please install them before loading them.</p>
@@ -4342,22 +4338,21 @@ window.onload = function() {
 </div>
 </section>
 <section id="challenge-overview" class="level2">
-<h2 class="anchored" data-anchor-id="challenge-overview">Challenge Overview</h2>
-<p>In this challenge, we will practice <code>join()</code> with relational data, use string functions to process, extract information, and mutate and clean data. We will also practice wring own functions.</p>
-<p>There will be coding components and writing components. Please read the instructions for each part and complete your challenges.</p>
+<h2 class="anchored" data-anchor-id="challenge-overview">Project Overview</h2>
+<p>In this project, I will practice <code>join()</code> with relational data, use string functions to process, extract information, and mutate and clean data. We will also practice wring own functions.</p>
 </section>
 <section id="datasets" class="level2">
 <h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
-<p>There are four datasets provided in this challenge. Please download the following dataset files from Google Classroom and save them to a folder within your project working directory (i.e.: “DACSS601_data”). If you don’t have a folder to store the datasets, please create one.</p>
+<p>There are four datasets provided in this project. Please download the following dataset files and save them to a folder within your project working directory (i.e.: “DACSS601_data”). If you don’t have a folder to store the datasets, please create one.</p>
 <ul>
-<li>Part 1 and 2: ESS_5.dta and p5v2018.sav (used in Challenge#1) ⭐⭐</li>
-<li>Part 3: babynames.csv (used in Challenge#1) ⭐</li>
+<li>Part 1 and 2: ESS_5.dta and p5v2018.sav  ⭐⭐</li>
+<li>Part 3: babynames.csv ⭐</li>
 </ul>
 <p>Find the <code>_data</code> folder, then use the correct R command to read the datasets.</p>
 </section>
 <section id="part-1.-joining-individual-level-and-country-level-data" class="level2">
 <h2 class="anchored" data-anchor-id="part-1.-joining-individual-level-and-country-level-data">Part 1. Joining Individual-level and Country-Level Data</h2>
-<p>We have been working with ESS and Polity datasets in the previous two challenges and should be familiar with them. Suppose we have a research project that studies European citizens’ social behaviors and public opinions, and we are interested in <strong>how the countries that respondents live in influence their behavior and opinion</strong>. In this case, we will need to combine the two data for future analysis.</p>
+<p> Suppose we have a research project that studies European citizens’ social behaviors and public opinions, and we are interested in <strong>how the countries that respondents live in influence their behavior and opinion</strong>. In this case, we will need to combine the two data for future analysis.</p>
 <ol type="1">
 <li><p><strong>Read the two raw datasets.</strong></p>
 <p><strong>For ESS_5: (1) keep only the following columns:</strong> <em>idno, essround, male, age, edu, eth_major, income_10, cntry, vote<strong>.</strong></em> <strong>(2)</strong> recode <em>essround</em> to 2010, and rename it as <em>year</em>.</p>
