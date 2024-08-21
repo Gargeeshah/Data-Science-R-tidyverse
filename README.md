@@ -18,7 +18,4 @@ Develop a robust understanding of data analysis techniques and their application
 
 ##### Tools and Technologies Used:
 
-R
-RStudio
-Quarto
-GitHub
+R, RStudio, Quarto, GitHub
