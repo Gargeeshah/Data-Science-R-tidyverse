@@ -1,4 +1,4 @@
-## Comprehensive Data Analysis and Research Implementation in R
+## Data Analysis and Research Implementation in R
 
 ### Objective:
 Develop a robust understanding of data analysis techniques and their applications in real-world research settings, utilizing R and associated tools.
